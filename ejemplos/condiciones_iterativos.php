@@ -79,22 +79,22 @@ switch ($k) {
 
 
 
-// echo "Funcion While <br>";
+echo "Funcion While <br>";
 
-// $n = 0;
+$n = 0;
 
-// solo imprima los numeros pares
-// residuo 
+#solo imprima los numeros pares
+#residuo es el resto de la division entera
 
-// while ( $n <= 100) {
+while ( $n <= 100) {
 
-// 	if ( $n%2 == 0 ){
-// 		echo "El valor de n es: ".$n." Es PAR <br>";
-// 	} else {
-// 		echo "El valor de n es: ".$n." Es IMPAR <br>";
-// 	}
-// 	$n++;
-// }
+	if ( $n%2 == 0 ){
+		echo "El valor de n es: ".$n." Es PAR <br>";
+	} else {
+		echo "El valor de n es: ".$n." Es IMPAR <br>";
+	}
+	$n++;
+}
 
 $m = 10;
 
@@ -102,6 +102,7 @@ while ( $m < 0 ){ // Mientras
 	echo "<br> Hola Mundo";
 	$m++;
 }
+
 
 do { // Hacer mientras
 	echo "<br> Hola Mundo";

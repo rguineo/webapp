@@ -1,27 +1,41 @@
 <?php 
 
-#Clases
-#
-Class Automovil{
-	#propiedades
-
+Class Vehiculo{
+	#propiedades 
 	public $marca;
 	public $modelo;
 
-	#metodos
+	#metodos 
 	public function mostrar(){
-		echo "Hola, soy un ".$this->marca.", modelo ".$this->modelo."<br>"; 
+		echo "Hola, soy un auto ".$this->marca.", de modelo ".$this->modelo;
 	}
 }
 
-$a = new Automovil;
+$a = new Vehiculo;
 $a -> marca = "Toyota";
 $a -> modelo = "Corolla";
 $a -> mostrar();
 
-$b = new Automovil;
+echo "<br>";
+
+$b = new Vehiculo;
 $b -> marca = "Hyundai";
 $b -> modelo = "Santa Fe";
 $b -> mostrar();
 
- ?>
+echo "<br>";
+
+$b = new Vehiculo;
+$b -> marca = "Mazda";
+$b -> modelo = "mazda 6";
+$b -> mostrar();
+
+
+
+
+
+
+
+
+
+?>

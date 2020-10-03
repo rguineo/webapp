@@ -38,16 +38,12 @@ suma($num1, $num2);
 #funcion con retorno
 
 function retornar($msj){
-
 	return $msj;
-
 }
 
 echo retornar("Hola a todos");
 
-
 #ejemplo funcion con retorno
-
 function multiplicar ($a, $b){
 	$resultado = $a * $b;
 	return $resultado;
