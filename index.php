@@ -11,7 +11,6 @@ $a -> template();
 <html>
 <head>
 	<title></title>
-
 	<link rel="stylesheet" type="text/css" href="views/dist/css/bootstrap.min.css">
 
 </head>
