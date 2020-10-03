@@ -37,7 +37,23 @@ if ( $num1 > $num2 ){
 	}
 }
 
+$j=1;
 
+switch ($j) {
+	case '0':
+		echo "la variable j es 0";
+		break;
+
+	case '1':
+		echo "la variable j es 1";
+		break;
+	case '2':
+		echo "la variable j es 2";
+		break;
+	default:
+
+		break;
+}
 
 // echo "<br><br>";
 // echo "Funcion While <br>";
@@ -75,23 +91,7 @@ do { // Hacer mientras
 // 	echo $i.".- Hola Mundo con ciclo FOR <br>";
 // }
 
-$j=1;
 
-switch ($j) {
-	case '0':
-		echo "la variable j es 0";
-		break;
-
-	case '1':
-		echo "la variable j es 1";
-		break;
-	case '2':
-		echo "la variable j es 2";
-		break;
-	default:
-
-		break;
-}
 
 
 
