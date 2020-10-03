@@ -70,10 +70,10 @@ do { // Hacer mientras
 } while ( $m < 0);
 
 
-echo "<br>";
-for ($i=0; $i < 10; $i++) { 
-	echo $i.".- Hola Mundo con ciclo FOR <br>";
-}
+// echo "<br>";
+// for ($i=0; $i < 10; $i++) { 
+// 	echo $i.".- Hola Mundo con ciclo FOR <br>";
+// }
 
 $j=1;
 
@@ -85,7 +85,9 @@ switch ($j) {
 	case '1':
 		echo "la variable j es 1";
 		break;
-
+	case '2':
+		echo "la variable j es 2";
+		break;
 	default:
 
 		break;
