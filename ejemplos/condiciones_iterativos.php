@@ -37,6 +37,8 @@ if ( $num1 > $num2 ){
 	}
 }
 
+echo "<br>";
+
 $j=1;
 
 switch ($j) {
@@ -55,7 +57,28 @@ switch ($j) {
 		break;
 }
 
-// echo "<br><br>";
+echo "<br><br>";
+
+$k = "lunes";
+
+switch ($k) {
+	case 'sabado':
+		echo "tengo clases de Programacion Segura <br>";
+		break;
+	case 'viernes':
+		echo "voy a carretear, a una fiesta <br>";
+		break;	
+	case 'domingo':
+		echo "descanzo <br>";
+		break;	
+
+	default:
+		echo "Trabajo desde la casa <br>";
+		break;
+}
+
+
+
 // echo "Funcion While <br>";
 
 // $n = 0;
@@ -86,10 +109,10 @@ do { // Hacer mientras
 } while ( $m < 0);
 
 
-// echo "<br>";
-// for ($i=0; $i < 10; $i++) { 
-// 	echo $i.".- Hola Mundo con ciclo FOR <br>";
-// }
+echo "<br>";
+for ($i=0; $i < 10; $i++) { 
+	echo $i.".- Hola Mundo con ciclo FOR <br>";
+}
 
 
 
