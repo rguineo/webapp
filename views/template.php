@@ -1,20 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Mi plantilla</title>
-</head>
-<body>
+<header>
+	<img class="logotipo" src="views/dist/img/Vans-Logo.png">
+
+</header>
+
 	<?php include "modulos/nav_bar.php"; ?>
-	<?php include "modulos/slider.php"; ?>
 
-	<div class="container">
-		<?php include "modulos/cuerpo.php"; ?>
+<section>
+	<hr>
+	
+	<?php 
 
-		<br>
+		$contenido = new ctrErutamiento;
+		$contenido -> EnrutamientoController();
+	 ?>
 
-		<?php include "modulos/footer.php"; ?>
 
-	</div>
+</section>
 
-</body>
-</html>

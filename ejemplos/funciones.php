@@ -5,43 +5,47 @@
 #funcion sin parametros
 function saludo(){
 
-	echo "Hola mundo <br>";
+	echo "Hola mundo desde una funcion sin parametros <br>";
 
 }
 
 saludo();
 
 
-#funcion con parametros
-function despedida($t){
 
-	echo $t."<br>";
+
+
+
+#funcion con parametros
+function despedida($texto){
+
+	echo $texto."<br>";
 
 }
 
-$msj="Chao Mundo";
+$msj="Chao Mundo - funcion con parametros";
 despedida($msj);
 
 
 #ejemplo funcion con parametros
-function suma ($a, $b){
+function suma($a, $b){
 	$resultado = $a + $b;
 	echo "El resultado de a + b = ".$resultado."<br>";
 }
 
-$num1=23423;
-$num2=32423;
+$num1=1000;
+$num2=2500;
 
 suma($num1, $num2);
 
 
 #funcion con retorno
-
 function retornar($msj){
 	return $msj;
 }
 
-echo retornar("Hola a todos");
+echo retornar("Hola a todos - con retorno");
+
 
 #ejemplo funcion con retorno
 function multiplicar ($a, $b){
@@ -49,7 +53,7 @@ function multiplicar ($a, $b){
 	return $resultado;
 }
 
-echo "<br> el resultado de la multiplicacion es: ".multiplicar(5, 8);
+echo "<br> el resultado de la multiplicacion es: ".multiplicar(10, 8);
 
 
 
