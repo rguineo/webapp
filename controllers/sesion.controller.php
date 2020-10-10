@@ -11,7 +11,7 @@ Class ControllerSesion{
 
 			$respuesta = ModeloSesion::mdlIniciarSesion($tabla, $usuario);
 
-			if ($respuesta['usuario'] == $_POST['user'] && $respuesta['password'] == $_POST['pass']){
+			if ($respuesta['usuario'] == $_POST['user'] && $respuesta['password'] == md5($_POST['pass'])){
 
 				$_SESSION['autenticar'] = "ok";
 				$_SESSION['nombres'] = $respuesta['nombres'];

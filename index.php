@@ -1,5 +1,7 @@
 <?php 
 
+header("Set-Cookie: hidden=value; httpOnly");
+
 #Controladores
 require_once "controllers/template.controller.php";
 require_once "controllers/sesion.controller.php";
