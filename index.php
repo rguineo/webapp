@@ -1,10 +1,13 @@
 <?php 
 
+#Controladores
 require_once "controllers/template.controller.php";
-
+require_once "controllers/sesion.controller.php";
 require_once "controllers/enrutamiento.controller.php";
-require_once "models/enrutamiento.model.php";
 
+#Modelos
+require_once "models/enrutamiento.model.php";
+require_once "models/sesion.model.php";
 
 ?>
 
