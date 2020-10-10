@@ -15,3 +15,26 @@ INSERT INTO usuarios VALUES(NULL, 'juan@correo.cl', md5('123456'), 'Juan Pedro',
 INSERT INTO usuarios VALUES(NULL, 'javiera@correo.cl', md5('1234567'), 'Javiera Antonia', 'Reinoso Aravena', 2);
 
 INSERT INTO usuarios VALUES(NULL, 'daniela@correo.cl', md5('1234567'), 'Daniela Soledad', 'Sepulveda Arancibia', 2);
+
+
+# Tabla log usuario (actividad del usuario en la aplicacion)
+
+
+create table log_usuario(
+nom_usuario text,
+fecha datetime,
+url text);
+
+
+
+
+
+
+
+
+
+
+
+
+
+

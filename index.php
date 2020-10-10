@@ -1,15 +1,17 @@
 <?php 
-
+#httpOnly impide que una cookie sea leida desde javascript en caso de una explotacion de XSS (Cross-Site Scripting)
 header("Set-Cookie: hidden=value; httpOnly");
 
 #Controladores
 require_once "controllers/template.controller.php";
 require_once "controllers/sesion.controller.php";
 require_once "controllers/enrutamiento.controller.php";
+require_once "controllers/log.controller.php";
 
 #Modelos
 require_once "models/enrutamiento.model.php";
 require_once "models/sesion.model.php";
+require_once "models/log.model.php";
 
 ?>
 

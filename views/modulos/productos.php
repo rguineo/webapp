@@ -1,3 +1,4 @@
+<?php include "log_user.php"; ?>
 
 <div class="container">
 	
