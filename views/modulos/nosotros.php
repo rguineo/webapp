@@ -1,3 +1,3 @@
 <?php include "log_user.php"; ?>
 
-<H1>NOSOTROS</H1>
+<H1>PAGINA - NOSOTROS </H1>
