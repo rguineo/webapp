@@ -3,7 +3,7 @@
 <section>
 	
 	<?php 
-
+		error_reporting(0);
 		session_start(); //para iniciar una nueva sesion
 		//$_SESSION['autenticar'] = "ok";
 

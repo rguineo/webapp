@@ -3,9 +3,9 @@
 Class Conexion {
 
 	public function Conectar() {
-		$dbname="webapp"; //Colocar nombre de la base de datos
-		$dbuser="root"; //Colocar nombre de usuario 
-		$dbpass=""; //Colocar password de usuario
+		$dbname="technoso_webapp"; //Colocar nombre de la base de datos
+		$dbuser="technoso_usrwapp"; //Colocar nombre de usuario 
+		$dbpass="usuario123"; //Colocar password de usuario
 
 		$link = new PDO("mysql:host=localhost;dbname=$dbname",
 			"$dbuser",
