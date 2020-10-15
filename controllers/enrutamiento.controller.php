@@ -18,10 +18,10 @@ Class ctrErutamiento{
 		// $a = ( new mdlEnrutamiento );
 		// $respuesta = $a->enrutamientoModel($route);
 
-		$respuesta = mdlEnrutamiento::enrutamientoModel($route);
+		$enlace = (new mdlEnrutamiento);
+		$respuesta = $enlace->enrutamientoModel($route);
 
-
-		include $respuesta; 
+		include_once $respuesta; 
 
 	}
 }

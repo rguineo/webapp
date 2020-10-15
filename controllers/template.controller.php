@@ -4,7 +4,7 @@ Class ctrTemplate {
 
 	public function template(){
 
-		include "views/template.php";
+		include_once "views/template.php";
 	}
 }
 

@@ -1,4 +1,7 @@
 <?php 
+		error_reporting(0);
+		session_start(); //para iniciar una nueva sesion
+
 #httpOnly impide que una cookie sea leida desde javascript en caso de una explotacion de XSS (Cross-Site Scripting)
 header("Set-Cookie: hidden=value; httpOnly");
 

@@ -9,7 +9,8 @@ Class ControllerSesion{
 			$tabla = "usuarios";
 			$usuario = $_POST['user'];
 
-			$respuesta = ModeloSesion::mdlIniciarSesion($tabla, $usuario);
+			$enlace = (new ModeloSesion);
+			$respuesta = $enlace->mdlIniciarSesion($tabla, $usuario);
 
 			if ($respuesta['usuario'] == $_POST['user'] && $respuesta['password'] == md5($_POST['pass'])){
 

@@ -23,7 +23,8 @@
 
 	        <?php 
 
-	        	$iniciarSesion = ControllerSesion::ctrIniciarSesion();
+	        	$enlace = (new ControllerSesion);
+	        	$respuesta = $enlace->ctrIniciarSesion();
 
 	         ?>
 

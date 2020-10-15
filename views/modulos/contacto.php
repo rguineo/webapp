@@ -1,4 +1,4 @@
-<?php include "log_user.php"; ?>
+<?php include_once "log_user.php"; ?>
 
 
 <div class="container">
