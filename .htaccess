@@ -3,6 +3,8 @@ Options All -Indexes
 
 #Habilitar reglas de sobre escritura
 RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d  
+RewriteCond %{SCRIPT_FILENAME} !-f  
 
 #Crear una regla de escritura
-RewriteRule ^([-a-zA-Z0-9/]+)$ index.php?action=$1
+RewriteRule ^([-a-zA-Z0-9/]+)$ index.php?ruta=$1
